@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "practiceapp",
+    "slug": "practiceapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./App/assets/icon.png",
+    "splash": {
+      "image": "./App/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#e63c4b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./App/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.tomiwa.donewithit",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./App/assets/favicon.png"
+    }
+  }
+}
